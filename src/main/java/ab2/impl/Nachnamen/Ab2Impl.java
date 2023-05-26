@@ -9,19 +9,19 @@ public class Ab2Impl implements Ab2 {
 	@Override
 	public <K, V> AlgoDatHashMap<K, V> newHashMapLinear(int minSize) {
 		// TODO Auto-generated method stub
-		return null;
+		return new HashMapLinearImpl(minSize);
 	}
 
 	@Override
 	public <K, V> AlgoDatHashMap<K, V> newHashMapQuadratic(int minSize) {
 		// TODO Auto-generated method stub
-		return null;
+		return new HashMapQuadraticImpl(minSize);
 	}
 
 	@Override
 	public <K, V> AlgoDatHashMap<K, V> newHashMapDouble(int minSize) {
 		// TODO Auto-generated method stub
-		return null;
+		return new HashMapDoubleImpl(minSize);
 	}
 
 	@Override
